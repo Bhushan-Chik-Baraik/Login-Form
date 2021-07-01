@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    font-family: 'Merriweather', serif;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  footer {
+    margin-top: 5px;
+  } 
+  /* sourceMappingURL :style.css.map ; */
+  #bk{
+    height: 53vh;
+    background-image: url("image/tb1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .navbar-brand{
+    /* font-family: 'Merriweather', serif; */
+    font-size: 45px;
+    font-weight:700;
+    font-family: 'Castoro', serif;
+    color: blue; 
+  }
+  .nav-item{
+    font-size: 18px;
+    color: rgb(2, 2, 24);
+  }
+  #lcon{
+    margin-top: 15px;
+    border: 1px solid darkblue;
+    background: linear-gradient(to right, rgb(12, 241, 203), rgb(10, 116, 238));
+
+  }
+  #lcon a{
+    text-decoration: none;
+    color: darkblue;
+  }
+  #rc{
+    background: linear-gradient(to right, rgb(125, 125, 248), rgb(3, 241, 230),rgb(125, 125, 248)); 
+  }
+  #ft{
+    margin-top: 20px;
+  }

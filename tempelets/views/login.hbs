@@ -1,0 +1,33 @@
+{{>header}}
+<div id="bk">
+    {{>navbar}}
+    <div class="container">
+        <h1>Welcome to the Digital World</h1>
+        <h3>We are here to help you to Grab the Job Opportunity in IT Field</h3>
+    </div>
+</div>
+
+<div id="lcon" class="container justify-content-center w-auto">
+    <div class="row my-2 ">
+        <div class="col mx auto">
+            <h2 class="text-center login-title my-3">Login To Account</h2>
+            <div class="account-wall my-2">
+                <img class="profile-img" src="" alt="">
+            <form class="form-signin" action="/user/login" method="POST">
+               
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" 
+                        class="form-control">
+                    <input type="password" name="password" id="password" placeholder="Enter Password"
+                        class="form-control my-2">
+                    <button type="submit" class="btn btn-lg btn block btn-primary">Sign in</button>
+                    <lebel class="checkbox pull-left mt-3 d-flex">
+                        <input type="checkbox" value="Remember-me">Remember Me
+                    </lebel>
+                    <a href="#" class="pull-right need-help my-2">Need Help</a><span class="clearfix"></span>
+            </form>
+        </div>
+        <a href="register" class="text-center new-account">Create an Account</a>
+    </div>
+</div>
+</div>
+{{>footer}}
